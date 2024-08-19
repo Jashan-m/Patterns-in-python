@@ -1,0 +1,57 @@
+def print_j():
+    return [
+        " ***** ",
+        "   *   ",
+        "   *   ",
+        "   *   ",
+        " * *   ",
+        "  **   "
+    ]
+
+def print_a():
+    return [
+        "  ***  ",
+        " *   * ",
+        " *   * ",
+        " ***** ",
+        " *   * ",
+        " *   * "
+    ]
+
+def print_s():
+    return [
+        " ***** ",
+        " *     ",
+        " ***** ",
+        "     * ",
+        " ***** "
+    ]
+
+def print_h():
+    return [
+        " *   * ",
+        " *   * ",
+        " ***** ",
+        " *   * ",
+        " *   * "
+    ]
+
+def print_n():
+    return [
+        " *   * ",
+        " **  * ",
+        " * * * ",
+        " *  ** ",
+        " *   * "
+    ]
+
+def jashan():
+    j = print_j()
+    a = print_a()
+    s = print_s()
+    h = print_h()
+    n = print_n()
+
+    for i in range(6):  
+        print(j[i] + "  " + a[i] + "  " + s[i] + "  " + h[i] + "  " + a[i] + "  " + n[i])
+jashan()
